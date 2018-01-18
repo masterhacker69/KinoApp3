@@ -8,7 +8,15 @@ public class Liste {
 
     public ArrayList<Filmeintrag> gesamtEinträge = new java.util.ArrayList<Filmeintrag>();
 
-        public static void main (String[] args) throws IOException {
+    public ArrayList<Filmeintrag> getGesamtEinträge() {
+        return gesamtEinträge;
+    }
+
+    public void setGesamtEinträge(ArrayList<Filmeintrag> gesamtEinträge) {
+        this.gesamtEinträge = gesamtEinträge;
+    }
+
+    public static void main (String[] args) throws IOException {
             Liste liste = new Liste();
         }
 
